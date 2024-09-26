@@ -32,8 +32,8 @@ jobs:
 
     # Build dell'immagine Docker utilizzando il Dockerfile
     - name: Build Docker image
-      run: docker build -t antoniocarnevale18/config-web-server .
+      run: docker build -t antoniocarnevale18/eureka-web-service
 
     # Push dell'immagine Docker su Docker Hub
     - name: Push Docker image to Docker Hub
-      run: docker push antoniocarnevale18/config-web-server:latest
+      run: docker push antoniocarnevale18/eureka-web-service:latest
