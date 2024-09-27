@@ -10,7 +10,7 @@ spring:
     # = Propriet� Config Server
     # ==============================================================
     config:
-      uri: http://localhost:8888
+      uri: http://config-server:8888
       profile: ${profile}
       label: ${ramo}
       fail-fast: true
